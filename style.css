@@ -1,0 +1,49 @@
+@import url("https://fonts.googleapis.com/css2?family=Agbalumo&display=swap");
+
+*{
+    margin: 0;
+    padding: 0;
+    font-family: Agbalumo;
+}
+
+#top{
+    background-image: url(./GALLERY/art\ 1.jpg);
+    height: 67vh;
+    background-color: rgba(56, 46, 46, 0.712);
+    background-blend-mode: overlay;
+    background-size: cover;
+    background-attachment: fixed;
+}
+p{
+    position: relative;
+    top: 100px;
+    color: white;
+    text-align: center;
+    font-size: 40px;
+    border:9px solid rgba(255, 255, 255, 0.712);
+}
+.places{
+    display: grid;
+    grid-template-columns: repeat(3,400px);
+    background-color: antiquewhite;
+
+}
+.places img{
+    height: 40vh;
+    width: 50vh;
+    border-radius: 1em;
+    margin-left: 100px;
+    margin-top: 40px;
+    margin-bottom: 40px;
+    cursor: pointer;
+    box-shadow: 10px 10px 25px rgba(133, 120, 120, 0.842);
+}
+.places img:hover{
+    box-shadow: 10px 10px 25px rgb(248, 163, 53);
+}
+h1{
+    text-align: center;
+    text-decoration: underline;
+}
+
+
